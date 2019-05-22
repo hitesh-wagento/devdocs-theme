@@ -26,3 +26,9 @@ tr td {
   word-wrap: break-word;
   vertical-align: initial;
 }
+
+@media ( $small-screen) {
+  th {
+    word-wrap: break-word;
+  }
+}
